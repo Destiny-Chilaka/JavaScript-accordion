@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Accordion</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- General Questions -->
+    <div class=" w-4/5 flex justify-center items-center  flex-col m-auto py-7">
+        <h2 class="cookie-regular text-6xl" style="color: #d8b805;">General Questions</h2>
+        <!-- Section center -->
+
+        <div class="w-4/5">
+            <!-- Single Question -->
+            <article class=" question-container ">
+                <div class="question-title p-5  text-2xl flex justify-between ">
+                    <p>What are your hobbies?</p>
+                    <button type="button" class="question-btn flex flex-col">
+                        <span class="plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!-- Question Text -->
+                <div class="question-text p-3">
+                    <p>
+                        My hobbies are: Playing chess, playing basket ball, writing codes, sleeping, reading the bible
+                        and eating
+                    </p>
+                </div>
+            </article>
+            <!-- End of Question -->
+
+            <!-- Single Question -->
+            <article class=" question-container ">
+                <div class="question-title p-5  text-2xl flex justify-between ">
+                    <p>How many repositories do you have?</p>
+                    <button type="button" class="question-btn flex flex-col">
+                        <span class="plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!-- Question Text -->
+                <div class="question-text p-3">
+                    <p>
+                        I have over 20 repositories on Github.
+                    </p>
+                </div>
+            </article>
+            <!-- End of Question -->
+
+            <!-- Single Question -->
+            <article class=" question-container show-text">
+                <div class="question-title p-5 p-2 text-2xl flex justify-between ">
+                    <p>What is your expertise?</p>
+                    <button type="button" class="question-btn flex flex-col">
+                        <span class="plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!-- Question Text -->
+                <div class="question-text p-3">
+                    <p>
+                        I am skilled in HTML, CSS, BOOTSTRAP, JAVASCRIPT, <br> GIT/GITHUB, TAILWINDCSS AND REACT
+                    </p>
+                </div>
+            </article>
+            <!-- End of Question -->
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/52f88a9773.js" crossorigin="anonymous"></script>
+    <script src="./js/tailwindcss.js"></script>
+    <script src="./js/faq.js"></script>
+</body>
+
+</html>
